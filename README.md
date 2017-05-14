@@ -10,7 +10,7 @@ However, the basic API still works. This was designed to be run on a raspberry p
 anywhere if you only use test-main.py.
 I may get back and fix this project eventually.
 
-### _Setup_
+## _Setup_
 
 To use, you must obtain a Kairos facial recognition and Nexmo API key. Plug these in to 
 the files sms.py and face_api.py.
@@ -19,7 +19,7 @@ Also, make sure that your webcam is in /dev/video0. If not, then change it in pi
 Finally, install OpenCV. This varies from system to system, so you're on your own.
 This step is optional if you only want to use the recognition and sms portions of the program.
 
-### _Usage_
+## _Usage_
 
 Run enroll.py with a picture and name to register the face to that name.
 Run main.py if you have OpenCV installed and a webcam plugged it. It will take a picture using the webcam.
