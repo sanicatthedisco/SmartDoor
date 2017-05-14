@@ -1,10 +1,10 @@
 import urllib
 import urllib2
 
-key = 'a538ddad'
-secret = '2c0f1a2d9323655d'
-to = '16465892931'
-sender = '12035298897'
+key = '{api id goes here}'
+secret = '{secret goes here}'
+to = '{recieving number goes here}'
+sender = '{sending number goes here}'
 
 def send_sms(text):
     params = {

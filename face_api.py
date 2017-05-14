@@ -3,7 +3,7 @@ from urllib import quote_plus, urlencode
 from urllib2 import Request, urlopen
 
 app_id = "3b54027c"
-app_key = "a22a5d35b485afcc2157ae7b2ef6cbdc"
+app_key = "{app key goes here}"
 
 headers = {
   'Content-Type': 'application/json',

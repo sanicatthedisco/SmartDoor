@@ -1,12 +1,6 @@
-import face_api, sms
+import face_api, sms, picture
 import base64
 
-fname = raw_input("File name: ")
-#name = raw_input("Name: ")
-
-f = open(fname)
-img = base64.b64encode(f.read())
-f.close()
-
+img = picture.capture()
 n = face_api.identify_face(img)
 sms.send_sms(n)
